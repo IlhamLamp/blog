@@ -7,7 +7,7 @@ command = "git submodule update -f --init && hugo --gc --minify"
 HUGO_VERSION = "0.110.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-HUGO_TITLE = "My PaperMod Site"
+HUGO_TITLE = "Memorest"
 HUGO_THEME = "PaperMod"
 
 [context.split1]
