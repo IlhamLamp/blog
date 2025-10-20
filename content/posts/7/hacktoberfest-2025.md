@@ -22,9 +22,9 @@ Yah, ini sharing-sharing aja sih. Pastikan udah daftar [disini](https://hacktobe
 Siapin dulu reponya banh, kita mengenal ada 2 jenis:
 
 1. Remote Repository
-   ![remote repo](image.png)
+   ![remote repo](/posts/7/image.png)
 2. Local Repository
-   ![local repo](image-1.png)
+   ![local repo](/posts/7/image-1.png)
 
 fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubahan. Idealnya perubahan dari dalam dulu (lokal) sebelum ditampilkan keluar (remote), kan?
 
@@ -32,13 +32,13 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 1. Perubahan di lokal
 
-   ![save-local](image-2.png)
+   ![save-local](/posts/7/image-2.png)
 
    (misal saya) menambahkan perubahan pada baris 141, jangan lupa di save.
 
 2. Simpan, tambahkan
 
-   ![add](image-3.png)
+   ![add](/posts/7/image-3.png)
 
    > “Memasukkan barang X ke kotak pengiriman.”
 
@@ -56,7 +56,7 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 3. Commit
 
-   ![commit](image-4.png)
+   ![commit](/posts/7/image-4.png)
 
    > “Kotak disegel dengan daftar isi: ‘perbaikan tombol login’.”
 
@@ -74,7 +74,7 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 4. Upload ke remote
 
-   ![push](image-5.png)
+   ![push](/posts/7/image-5.png)
 
    > “Kurir di-panggil — paket dikirim ke gudang pusat.”
 
@@ -86,7 +86,7 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 5. Check
 
-   ![check-update](image-6.png)
+   ![check-update](/posts/7/image-6.png)
 
    > “Pastikan deskripsi paket sesuai commit sebelumnya.”
 
@@ -96,26 +96,26 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 1. Remote Repository
 
-   ![check-update](image-6.png)
+   ![check-update](/posts/7/image-6.png)
 
    masih di halaman remote repository, masuk ke tab Pull Requests.
 
 2. Pull Requests
 
-   ![new-pull-req](image-7.png)
+   ![new-pull-req](/posts/7/image-7.png)
 
    tekan new pull request
 
-   ![create-pull-req](image-8.png)
+   ![create-pull-req](/posts/7/image-8.png)
 
    pastikan comparing changes branch sesuai dengan repo yg dituju. misal case yg saya kerjakan saat ini adalah :
 
-   ![comparing-changes](image-9.png)
+   ![comparing-changes](/posts/7/image-9.png)
 
    > dari remote repo IlhamLamp/hello-world.
    > ke repo akmalsyrf/hello-world.
 
-   ![labels-assign-req](image-10.png)
+   ![labels-assign-req](/posts/7/image-10.png)
 
    isi deskripsi sesuai kebutuhan,
    sesuaikan label dengan **hacktoberfest-accepted**
@@ -124,22 +124,22 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 3. Merge Requests
 
-   ![merge-req](image-11.png)
+   ![merge-req](/posts/7/image-11.png)
 
    pastikan setiap title, label, desc, dll sudah sesuai. kemudian tekan button _merge pull request_.
 
    > opsional : biarkan commit message default
-   > ![com-message](image-12.png)
+   > ![com-message](/posts/7/image-12.png)
 
    terakhir, tekan button _confirm merge_.
 
    halaman berubah menjadi berikut,
 
-   ![merged](image-13.png)
+   ![merged](/posts/7/image-13.png)
 
    proses merging sudah selesai.
 
-   ![status](image-14.png)
+   ![status](/posts/7/image-14.png)
 
    remote repository sudah merekam perubahan.
 
@@ -147,19 +147,19 @@ fungsinya? _remote_ buat pusat datanya, _local_ buat (proses) melakukan perubaha
 
 cek lagi [disini](https://hacktoberfest.com/profile/), proses merge yg berhasil sebelumnya membutuhkan kurang lebih 15 menit sampai ter-rekam di halaman.
 
-![pr/m-status](image-15.png)
+![pr/m-status](/posts/7/image-15.png)
 
 Untuk mengulangi langkah, pastikan repository pribadi kita sudah di sync dengan tujuan, misal (saya):
 
     > https://github.com/IlhamLamp/hello-world
 
-![alt text](image-16.png)
+![alt text](/posts/7/image-16.png)
 
 tekan _update branch_.
 
 terakhir, di local repository (vs code), lakukan berikut :
 
-![git pull](image-17.png)
+![git pull](/posts/7/image-17.png)
 
 ```sh
     git pull
